@@ -15,7 +15,7 @@ Question 1:
 a = [ ]
 while True:
     x = int(input())
-    if x == 10:
+    if x == 21:
         break
     a.append(x)
 print(a)
