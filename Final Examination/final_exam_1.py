@@ -12,10 +12,12 @@ Question 1:
 และเขียนผลลัพท์ลงในไฟล์ชื่อ final2.txt 
 (5 คะแนน)
 """
+f = open("final1.txt", 'a')
 a = [ ]
 while True:
     x = int(input())
-    if x == 21:
+    if x == 10:
         break
     a.append(x)
-print(a)
+f.write(str(a) + '\n')
+f.close()
